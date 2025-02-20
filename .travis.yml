@@ -1,13 +1,9 @@
 os: linux
 
-vm:
-  size: [large]
+
 language: java
-services:
-  - docker
-cache:
-  directories:
-    - $HOME/.gradle  # Gradle cache directory
+
+
 dist: bionic
 
 install: skip
